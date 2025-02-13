@@ -109,7 +109,7 @@ const storage2 = multer.diskStorage({
 const upload2 = multer({ storage: storage2 });
 
 const corsOptions = {
-  origin: 'http://localhost:3000',  // Specify the allowed frontend origin
+  origin: 'https://jobzonewalhha-145.onrender.com',  // Specify the allowed frontend origin
   credentials: true,                // Allow credentials (cookies, headers, etc.)
 };
 
